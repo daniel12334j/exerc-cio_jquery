@@ -1,62 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: rgb(192, 192, 192);
-    display:flex;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5px 500px;
-    padding: 90px 2px;
-    border-radius: 15px;
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
 
-}
-form{
-    display:flex;
-    margin:auto 10px;
-}
-header{
-    color: rgba(0, 0, 0, 0.8);
-    padding: 5px 80px;
-    border-radius: 10px;
-}
-
-input{
-color: black;
-    border: none;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    list-style: none;
-}
-button{
-    padding:10px ;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
-    transition: 0.1s ease-in;
-}
-
-button:hover{
-padding: 11px;
-border-radius: 6px;
-font-size: 21px;
-background-color: rgb(248, 249, 249);
-
-}
-ul{
-    font-size: 20px;
-    cursor: pointer;
-    
-}
-
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
+    <form>
+<input type="text" required placeholder="Nome da tarefa" name="A" id="nua">
+<button type="submit" id="botao">Cadastrar</button>
+<button type="reset" id="can">cancelar</button>
+    </form>
+<ul>
+</ul>
+</div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./mainf.js"></script>
+</body>
+</html>
 
